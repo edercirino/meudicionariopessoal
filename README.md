@@ -14,13 +14,13 @@ Então por que não ter um app que faça isso para gente, não é?
   Uma lista é apresentada na tela inicial onde é possível editar, apagar e apagar  
 palavras antes adicionadas
 
-![]()  
+![](https://github.com/edercirino/meudicionariopessoal/blob/main/src/style/mpdHome.png)  
 
 ### Cadastro de palavras novas
 
 Inserir cada palavra e seu significado através de uma tela de cadastro.
 
-![]()  
+![](https://github.com/edercirino/meudicionariopessoal/blob/main/src/style/mpdAddWord.png)  
 
 
 
