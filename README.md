@@ -55,3 +55,18 @@ Foi feito nesse dia:
 O desafio desse dia foi:  
 
 * Sem desafios por enquanto, tarefa relativamente fácil.
+### Dia 2 - 15/12/2020
+
+Foi feito nesse dia:
+
+* Criação de componentes:
+  * SearchWords
+  * SearchWordLabel
+  * TotalWords
+  * TotalWordsLabel
+* Criação do arquivo Colors(para facilitar o trabalho com cores)
+* estilização de componentes
+
+O desafio desse dia foi:  
+
+* Procurar a melhor maneira de organizar os componentes na árvore de diretórios.
