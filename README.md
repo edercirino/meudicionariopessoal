@@ -22,9 +22,12 @@ Inserir cada palavra e seu significado através de uma tela de cadastro.
 
 ![](https://github.com/edercirino/meudicionariopessoal/blob/main/src/style/mpdAddWord.png)  
 
+### Editar palavra já existente
 
+É possível editar a palavra já cadastrada. O ícone salvar muda de cor quando  
+a palavra já existe.
 
-### Relatório dos Principais clientes
+![](https://github.com/edercirino/meudicionariopessoal/blob/main/src/style/mpdEditWord.png)
 
 ## Como executá-lo
 
@@ -70,3 +73,22 @@ Foi feito nesse dia:
 O desafio desse dia foi:  
 
 * Procurar a melhor maneira de organizar os componentes na árvore de diretórios.
+
+### Dia 3 - 16/12/2020
+
+Foi feito nesse dia:
+
+* estilização de componentes e posicionamento
+
+O desafio desse dia foi:  
+
+* Organizar melhor as telas do app
+### Dia 4 - 17/12/2020
+
+Foi feito nesse dia:
+
+* Melhorando a tela de adicionar palavra
+
+O desafio desse dia foi:  
+
+* Encontrar a melhor maneira de para montar uma tela para quando a palavra for editada.

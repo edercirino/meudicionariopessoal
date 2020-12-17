@@ -26,10 +26,10 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     justifyContent: 'center',
+    marginBottom: 30,
   },
   wordSearch: {
     backgroundColor: Colors.white,
-    borderWidth: 1,
     borderRadius: 150,
     width: '65%',
     marginTop: 35,
