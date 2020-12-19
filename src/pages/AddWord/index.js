@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import Colors from '../../style/Colors';
 
-const AddWord = () => {
+const AddWord = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.label}>Adicionar Palavra</Text>
@@ -17,7 +17,14 @@ const AddWord = () => {
       />
 
       <View style={styles.actionButtons}>
-        <Icon name="arrow-back" size={30} color="#fff" />
+        <Icon
+          name="arrow-back"
+          size={30}
+          color="#fff"
+          onPress={() => {
+            navigation.goBack();
+          }}
+        />
         <Icon name="save" size={30} color="#fff" />
         <Icon name="delete" size={30} color="#EA2027" />
       </View>

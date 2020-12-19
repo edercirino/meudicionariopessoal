@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 
 import TotalWordsLabel from '../../components/TotalWords/TotalWordsLabel';
 import TotalWords from '../../components/TotalWords';
@@ -9,14 +9,14 @@ import WordList from '../../components/WordList';
 
 import Colors from '../../style/Colors';
 
-const Main = () => {
+const Main = ({navigation}) => {
   return (
     <View style={styles.container}>
       <TotalWordsLabel />
       <TotalWords />
       <SearchWordLabel />
       <SearchWords />
-      <WordList />
+      <WordList navigation={navigation} />
     </View>
   );
 };

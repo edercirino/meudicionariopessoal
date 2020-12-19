@@ -91,4 +91,14 @@ Foi feito nesse dia:
 
 O desafio desse dia foi:  
 
-* Encontrar a melhor maneira de para montar uma tela para quando a palavra for editada.
+* Encontrar a melhor maneira de para montar uma tela para quando a palavra for editada.  
+
+### Dia 5 - 19/12/2020
+
+Foi feito nesse dia:
+
+* Navegação entre telas usando React Navigation V5
+
+O desafio desse dia foi:  
+
+* Lembrar como faz a navegação entre telas

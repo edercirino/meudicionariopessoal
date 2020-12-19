@@ -19,7 +19,7 @@ const data = [
   {id: '9', word: 'Barefoot'},
 ];
 
-const WordList = () => {
+const WordList = ({navigation}) => {
   const renderItem = ({item}) => <WordListItem word={item.word} />;
 
   return (
@@ -32,7 +32,9 @@ const WordList = () => {
         />
       </View>
 
-      <TouchableOpacity style={styles.addWordButton}>
+      <TouchableOpacity
+        style={styles.addWordButton}
+        onPress={() => navigation.navigate('AddWord')}>
         <Text style={styles.addWordText}>Adicionar Palavra</Text>
       </TouchableOpacity>
     </View>
