@@ -33,9 +33,9 @@ const WordList = ({navigation}) => {
       </View>
 
       <TouchableOpacity
-        style={styles.addWordButton}
-        onPress={() => navigation.navigate('AddWord')}>
-        <Text style={styles.addWordText}>Adicionar Palavra</Text>
+        style={styles.NewWordButton}
+        onPress={() => navigation.navigate('NewWord')}>
+        <Text style={styles.NewWordText}>Adicionar Palavra</Text>
       </TouchableOpacity>
     </View>
   );
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  addWordButton: {
+  NewWordButton: {
     alignItems: 'center',
     marginTop: 30,
     backgroundColor: Colors.green,
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     marginRight: 50,
     borderRadius: 50,
   },
-  addWordText: {
+  NewWordText: {
     fontSize: 18,
     color: Colors.black,
     paddingTop: 15,

@@ -5,7 +5,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 import Main from './pages/Main';
-import AddWord from './pages/AddWord';
+import NewWord from './pages/NewWord';
 
 const AppScreens = () => {
   return (
@@ -13,7 +13,7 @@ const AppScreens = () => {
       screenOptions={{headerShown: false}}
       initialRouteName="Main">
       <Stack.Screen name="Main" component={Main} />
-      <Stack.Screen name="AddWord" component={AddWord} />
+      <Stack.Screen name="NewWord" component={NewWord} />
     </Stack.Navigator>
   );
 };

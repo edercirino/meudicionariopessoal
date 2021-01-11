@@ -9,6 +9,12 @@ Então por que não ter um app que faça isso para gente, não é?
 
 ## Principais Funcionalidades
 
+### Tecnologias Utilizadas
+
+* React Native
+* Android Studio
+* RealmDB
+
 ### Consultar Palavras adicionadas
 
   Uma lista é apresentada na tela inicial onde é possível editar, apagar e apagar  
@@ -20,7 +26,7 @@ palavras antes adicionadas
 
 Inserir cada palavra e seu significado através de uma tela de cadastro.
 
-![](https://github.com/edercirino/meudicionariopessoal/blob/main/src/style/mpdAddWord.png)  
+![](https://github.com/edercirino/meudicionariopessoal/blob/main/src/style/mpdNewWord.png)  
 
 ### Editar palavra já existente
 
@@ -102,3 +108,13 @@ Foi feito nesse dia:
 O desafio desse dia foi:  
 
 * Lembrar como faz a navegação entre telas
+
+### Dia 6 - 11/01/2021
+
+Foi feito nesse dia:
+
+* Serviço de inserção de dados no banco de dados
+
+O desafio desse dia foi:  
+
+* Organizar o código para ficar de forma suscinta a leitura.
