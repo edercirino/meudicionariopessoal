@@ -1,6 +1,16 @@
 import {Alert} from 'react-native';
 import {getRealm} from './Realm';
 
+export const getWords = async () => {
+  const realm = await getRealm();
+
+  const words = realm.objects('Word');
+
+  console.log('getWords :: words ', JSON.stringify(words));
+
+  return words;
+};
+
 export const saveWord = async (values) => {
   const realm = await getRealm();
 
@@ -11,7 +21,7 @@ export const saveWord = async (values) => {
   try {
     realm.write(() => {
       data = {
-        id: '3',
+        id: '4',
         word: word,
         description: description,
       };

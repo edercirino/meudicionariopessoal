@@ -118,3 +118,13 @@ Foi feito nesse dia:
 O desafio desse dia foi:  
 
 * Organizar o código para ficar de forma suscinta a leitura.
+
+### Dia 7 - 12/01/2021
+
+Foi feito nesse dia:
+
+* Listando os dados do Realm
+
+O desafio desse dia foi:  
+
+* Lembrar como se usar useEffect.

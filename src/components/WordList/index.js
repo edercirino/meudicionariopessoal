@@ -1,32 +1,32 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {View, Text, FlatList, TouchableOpacity, StyleSheet} from 'react-native';
 
 import WordListItem from '../WordList/WordListItem';
 
-import Colors from '../../style/Colors';
+import {getWords} from '../../services/Words';
 
-//Vai vir do BD Futuramente
-const data = [
-  {id: '0', word: 'Periondotia'},
-  {id: '1', word: 'Samaritano'},
-  {id: '2', word: 'Hipocondríaco'},
-  {id: '3', word: 'Efêmero'},
-  {id: '4', word: 'Estalaquitite'},
-  {id: '5', word: 'Efeminado'},
-  {id: '6', word: 'Alérgico'},
-  {id: '7', word: 'Cow'},
-  {id: '8', word: 'Ox'},
-  {id: '9', word: 'Barefoot'},
-];
+import Colors from '../../style/Colors';
 
 const WordList = ({navigation}) => {
   const renderItem = ({item}) => <WordListItem word={item.word} />;
+  const [words, setWords] = useState([]);
+
+  useEffect(() => {
+    async function loadWords() {
+      const data = await getWords();
+      setWords(data);
+    }
+
+    loadWords();
+
+    console.log('WordList :: useEffect');
+  }, []);
 
   return (
     <View style={styles.container}>
       <View>
         <FlatList
-          data={data}
+          data={words}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
         />
